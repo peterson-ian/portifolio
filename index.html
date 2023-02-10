@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peterson Ian Portfolio - Desenvolvedor FullStack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/1f935ba07d.js" crossorigin="anonymous"></script>
+    <script defer src="menu.js"></script>
+    <script defer src="animation.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="nav">
+                <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="menu" id="menu" role="menu">
+                    <li><a href="#aboutMe">SobreMim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+       </div>
+       <div class="title-container">
+            <div class="name">
+                <h1 class="firstName hidden downAnimation">Peterson</h1>
+                <div class="lastName">
+                    <h2 class="spanDev hidden leftAnimation">#developer</h2>
+                    <h1 class="hidden rightAnimation">Ian</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="aboutMe" id="aboutMe">
+            <div class="container hidden leftAnimation">
+                <h2 class="subTitle hidden upAnimation">SobreMim</h2>
+                <div class="hidden leftAnimation">
+                    <p>
+                        Meu nome é Peterson Ian, desde cedo, sempre tive interesse pela área de tecnologia. 
+                        A minha paixão por tecnologia se iniciou com jogos clássicos como Pac-Man e Super Mario, 
+                        o que me permitiu perceber o poder de um computador e seus softwares. Decidi seguir carreira na 
+                        área de Tecnologia da Informação (TI) e iniciei minha formação com cursos de montagem e manutenção, 
+                        técnico em informática.
+                   </p>
+                   <p>
+                        Atualmente, estou cursando faculdade de Análise e Desenvolvimento de Sistemas no IFSP em Araraquara, com o objetivo de continuar meu crescimento e desenvolvimento na área de TI, e contribuir com minhas habilidades e conhecimentos em projetos futuros.
+                   </p>
+                </div>
+                <a href="/curriculo-Peterson.PDF" download="curriculo-Peterson"><button class="btnDownloadCV hidden leftAnimation">Download CV<span class="material-symbols-outlined iconCV">download</span></button></a>
+            </div>
+            <div class="containerPhotoAbouMe hidden rightAnimation">
+                <img class="meCartoon"  src="/imagens/meCuteCartoon.png" alt="Cartton Peterson">
+                <div class="circBlur"></div>
+            </div>
+        </div>
+        <div class="skills" id="skills">
+            <div class="container hidden upAnimation">
+                <h2 class="subTitle">Habilidades</h2>
+                <div class="languages">
+                    <div>
+                        <div class="containerHabilidade">
+                            <p>Python</p>
+                            <div class="progress_bar"><span class="bar barPython hidden barAnimation"></span></div>
+                            <span class="porcent">90%</span>
+                        </div>
+                        <div class="containerHabilidade">
+                            <p>Java</p>
+                            <div class="progress_bar"><span class="bar barJava hidden barAnimation"></span></div>
+                            <span class="porcent">70%</span>
+                        </div>
+                        <div class="containerHabilidade">
+                            <p>C</p>
+                            <div class="progress_bar"><span class="bar barC hidden barAnimation"></span></div>
+                            <span class="porcent">95%</span>
+                        </div>
+                        <div class="containerHabilidade">
+                            <p>PHP</p>
+                            <div class="progress_bar"><span class="bar barPHP hidden barAnimation"></span></div>
+                            <span class="porcent">80%</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="containerHabilidade">
+                            <p>HTML</p>
+                            <div class="progress_bar"><span class="bar barHTML hidden barAnimation"></span></div>
+                            <span class="porcent">90%</span>
+                        </div>
+                        <div class="containerHabilidade">
+                            <p>CSS</p>
+                            <div class="progress_bar"><span class="bar barCSS hidden barAnimation"></span></div>
+                            <span class="porcent">90%</span>
+                        </div>
+                        <div class="containerHabilidade">
+                            <p>JavaScript</p>
+                            <div class="progress_bar"><span class="bar barJS hidden barAnimation"></span></div>
+                            <span class="porcent">65%</span>
+                        </div>
+                        <div class="containerHabilidade">
+                            <p>MySQL</p>
+                            <div class="progress_bar"><span class="bar barMySQL hidden barAnimation"></span></div>
+                            <span class="porcent">95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="containerProject hidden rightAnimation">
+                <img class="imgProject hidden imageProjectShow" src="imagens/projects/videoCardioidVisualization.jpg" alt="project image">
+                <div class="textProject">
+                    <h1 class="subTitle">Cardioid Visualization</h1>
+                    <div class="containerTecnologias">
+                        <p><i class="fa-brands fa-java"></i></p>
+                    </div>
+                    <a href="" target="_blank"><button class="btn btnProject">Acessar</button></a>
+                </div>
+            </div>
+            <div class="containerProject hidden rightAnimation">
+                <img class="imgProject hidden imageProjectShow" src="imagens/projects/videoCardioidVisualization.jpg" alt="project image">
+                <div class="textProject">
+                    <h1 class="subTitle">Cardioid Visualization</h1>
+                    <div class="containerTecnologias">
+                        <p><i class="fa-brands fa-java"></i></p>
+                    </div>
+                    <a href="" target="_blank"><button class="btn btnProject">Acessar</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="contact container hidden leftAnimation" id="contact">
+            <h2 class="subTitle titleContact hidden upAnimation">Vamos conversar?</h2>
+            <div class="hidden upAnimation">
+                <p>
+                    Obrigado por visitar meu portfólio de desenvolvedor. Estou sempre disponível para conversar sobre projetos 
+                    e oportunidades de trabalho. Se você estiver interessado em trabalhar juntos ou simplesmente quer bater 
+                    um papo sobre tecnologia, não hesite em me enviar uma mensagem ou me ligar. Eu adoraria ouvir de você!
+                </p>
+                <p class="emailContact">Email: <a class="email" href="mailto:petersonianvf7@gmail.com">petersonianvf7@gmail.com</a></p>
+                <div class="btnsContact">
+                    <a href="https://www.linkedin.com/in/peterson-ian-702459200/" target="_blank"><button class="btn"><i class="fa-brands fa-linkedin-in"></i></button></a>
+                    <a href="https://github.com/peterson-ian" target="_blank"><button class="btn"><i class="fa-brands fa-github"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </main> 
+</body>
+</html>
