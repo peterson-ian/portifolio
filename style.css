@@ -273,105 +273,29 @@ p{
 
 
 /* Habilidades */
-.skills{
+.containerSkill{
     margin-bottom: 0.5rem;
+    width: 100%;
+    gap: 0.5rem;
 }
 
-.languages{
+.containerTecnonologias{
     display: flex;
-    width: 100%;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.languages > div{
-    width: 100%;
-}
-
-.containerHabilidade{
-    margin-bottom: 15px;
-    position: relative;
-}
-
-.containerHabilidade p{
-    text-indent: 0;
-    margin-bottom: 8px;
-}
-
-.progress_bar{
-    width: 100%;
-    height: 10px;
-    background-color: var(--light-pastel);
-    border-radius: 15px;
-    position: relative;
-}
-
-.bar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 15px ;
-    background-color: var(--right-blue);
-}
-
-.barPython{
-    width: 80%;
-    height: 100%;
-}
-
-.barJava{
-    width: 70%;
-    height: 100%;
-}
-
-.barPHP{
-    width: 80%;
-    height: 100%;
-}
-
-.barC{
-    width: 95%;
-    height: 100%;
-}
-
-.barHTML{
-    width: 90%;
-    height: 100%;
-}
-
-.barCSS{
-    width: 90%;
-    height: 100%;
-}
-
-.barJS{
-    width: 65%;
-    height: 100%;
-}
-
-.barMySQL{
-    width: 95%;
-    height: 100%;
-}
-
-.porcent{
-    position: absolute;
-    background-color: inherit;
-    padding: 5px;
-    color: var(--white);
+.skills i{
+    font-size: 3.8rem;
+    border: 1px solid transparent;
+    padding: 1rem;
     border-radius: 0.5rem;
-    right: 0;
-    top: 0;
+    transition: 0.3s;
 }
 
-.barAnimation.show{
-    animation-name: barAnimation;
-    animation-duration: 1s;
-}
-
-@keyframes barAnimation {
-    from{
-        width: 0;
-    }
+.skills i:hover{
+    border: 1px solid var(--right-blue);
+    color: var(--right-blue);
 }
 
 /* Projects */
@@ -599,7 +523,7 @@ p{
 
     .nav{
         border-radius: 50%;
-        border: 2px solid var(--white);
+        border: 1px solid var(--white);
     }
 
     .nav.active .menu{
